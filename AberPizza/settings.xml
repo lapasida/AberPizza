@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_02" class="java.beans.XMLDecoder">
+ <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.Settings">
+  <void property="availableItems">
+   <void method="add">
+    <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.Drink">
+     <void property="description">
+      <string>Orange &amp; Passionfruit or Apple &amp; Mango.</string>
+     </void>
+     <void property="name">
+      <string>J2O</string>
+     </void>
+     <void property="price">
+      <object class="java.math.BigDecimal">
+       <string>2.20</string>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.Drink">
+     <void property="description">
+      <string>Still or Sparkling.</string>
+     </void>
+     <void property="name">
+      <string>Spring Water</string>
+     </void>
+     <void property="price">
+      <object class="java.math.BigDecimal">
+       <string>1.95</string>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.Drink">
+     <void property="description">
+      <string>Semi skimmed.</string>
+     </void>
+     <void property="name">
+      <string>Fresh Milk</string>
+     </void>
+     <void property="price">
+      <object class="java.math.BigDecimal">
+       <string>1.25</string>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.Drink">
+     <void property="description">
+      <string>Succulent strawberry ice cream milkshake, drizzled with delightful raspberry sauce.</string>
+     </void>
+     <void property="name">
+      <string>Strawberry</string>
+     </void>
+     <void property="price">
+      <object class="java.math.BigDecimal">
+       <string>2.95</string>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.Drink">
+     <void property="description">
+      <string>A luxury chocolate milkshake with real ice cream and topped with a drizzle of chocolate sauce for good measure.</string>
+     </void>
+     <void property="name">
+      <string>The Chocoholic</string>
+     </void>
+     <void property="price">
+      <object class="java.math.BigDecimal">
+       <string>2.95</string>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.Drink">
+     <void property="description">
+      <string>An irresistible blend of real vanilla dairy ice cream and luxury toffee sauce.</string>
+     </void>
+     <void property="name">
+      <string>Vanilla Toffee</string>
+     </void>
+     <void property="price">
+      <object class="java.math.BigDecimal">
+       <string>2.95</string>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.Side">
+     <void property="description">
+      <string>New and improved. Our Ultimate Garlic Bread is coated on both sides for a richer flavour.</string>
+     </void>
+     <void property="name">
+      <string>Ultimate Garlic Bread</string>
+     </void>
+     <void property="price">
+      <object class="java.math.BigDecimal">
+       <string>1.95</string>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.Side">
+     <void property="description">
+      <string>Ultimate garlic bread decandently topped with juicy cherry tomatoes, pesto and rocket.</string>
+     </void>
+     <void property="name">
+      <string>Bruschetta Garlic Bread</string>
+     </void>
+     <void property="price">
+      <object class="java.math.BigDecimal">
+       <string>2.95</string>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.Side">
+     <void property="description">
+      <string>Tender chicken to dunk into your choice of dip.</string>
+     </void>
+     <void property="name">
+      <string>Breaded Chicken Strips</string>
+     </void>
+     <void property="price">
+      <object class="java.math.BigDecimal">
+       <string>3.95</string>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.Side">
+     <void property="description">
+      <string>That irresistible BBQ flavour smothered on succulent chicken. </string>
+     </void>
+     <void property="name">
+      <string>Texan BBQ Chicken Wings</string>
+     </void>
+     <void property="price">
+      <object class="java.math.BigDecimal">
+       <string>3.95</string>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.Side">
+     <void property="description">
+      <string>Tasty wedges with a crunchy outside and a fluffy middle...perfect with your favourite dip.</string>
+     </void>
+     <void property="name">
+      <string>Seasoned Potato Wedges</string>
+     </void>
+     <void property="price">
+      <object class="java.math.BigDecimal">
+       <string>2.95</string>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.Side">
+     <void property="description">
+      <string>Juicy cherry tomatoes and caramelised onions baked with garlic and mozzarella, finished with balsamic glaze and served with a slice of garlic bread.</string>
+     </void>
+     <void property="name">
+      <string>Cheese and Tomato Bake</string>
+     </void>
+     <void property="price">
+      <object class="java.math.BigDecimal">
+       <string>2.95</string>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.Pizza">
+     <void property="description">
+      <string>Mozzarella cheese with our delicious sun-ripened tomato sauce.</string>
+     </void>
+     <void property="name">
+      <string>Margherita</string>
+     </void>
+     <void property="prices">
+      <array class="java.math.BigDecimal" length="3">
+       <void index="0">
+        <object class="java.math.BigDecimal">
+         <string>4.75</string>
+        </object>
+       </void>
+       <void index="1">
+        <object class="java.math.BigDecimal">
+         <string>6.75</string>
+        </object>
+       </void>
+       <void index="2">
+        <object class="java.math.BigDecimal">
+         <string>10.95</string>
+        </object>
+       </void>
+      </array>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.Pizza">
+     <void property="description">
+      <string>Loaded with more sliced ham and sweet, juicy chunks of pineapple.</string>
+     </void>
+     <void property="name">
+      <string>Hawaiian</string>
+     </void>
+     <void property="prices">
+      <array class="java.math.BigDecimal" length="3">
+       <void index="0">
+        <object class="java.math.BigDecimal">
+         <string>5.95</string>
+        </object>
+       </void>
+       <void index="1">
+        <object class="java.math.BigDecimal">
+         <string>7.95</string>
+        </object>
+       </void>
+       <void index="2">
+        <object class="java.math.BigDecimal">
+         <string>13.55</string>
+        </object>
+       </void>
+      </array>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.Pizza">
+     <void property="description">
+      <string>Double portion of pepperoni with delicious mozzarella cheese.</string>
+     </void>
+     <void property="name">
+      <string>Double Pepperoni</string>
+     </void>
+     <void property="prices">
+      <array class="java.math.BigDecimal" length="3">
+       <void index="0">
+        <object class="java.math.BigDecimal">
+         <string>6.45</string>
+        </object>
+       </void>
+       <void index="1">
+        <object class="java.math.BigDecimal">
+         <string>8.45</string>
+        </object>
+       </void>
+       <void index="2">
+        <object class="java.math.BigDecimal">
+         <string>14.55</string>
+        </object>
+       </void>
+      </array>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.Pizza">
+     <void property="description">
+      <string>Fresh spinach and cherry tomatoes, mixed peppers, red onions and mushrooms… tasty.</string>
+     </void>
+     <void property="name">
+      <string>Veggie Supreme</string>
+     </void>
+     <void property="prices">
+      <array class="java.math.BigDecimal" length="3">
+       <void index="0">
+        <object class="java.math.BigDecimal">
+         <string>6.45</string>
+        </object>
+       </void>
+       <void index="1">
+        <object class="java.math.BigDecimal">
+         <string>8.45</string>
+        </object>
+       </void>
+       <void index="2">
+        <object class="java.math.BigDecimal">
+         <string>14.55</string>
+        </object>
+       </void>
+      </array>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.Pizza">
+     <void property="description">
+      <string>Chicken breast, mushrooms and caramelised onions.</string>
+     </void>
+     <void property="name">
+      <string>Chicken Supreme</string>
+     </void>
+     <void property="prices">
+      <array class="java.math.BigDecimal" length="3">
+       <void index="0">
+        <object class="java.math.BigDecimal">
+         <string>6.95</string>
+        </object>
+       </void>
+       <void index="1">
+        <object class="java.math.BigDecimal">
+         <string>8.95</string>
+        </object>
+       </void>
+       <void index="2">
+        <object class="java.math.BigDecimal">
+         <string>14.75</string>
+        </object>
+       </void>
+      </array>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.Pizza">
+     <void property="description">
+      <string>Back by popular demand! Green chillies, mixed peppers, red onions and cherry tomatoes.</string>
+     </void>
+     <void property="name">
+      <string>Veggie Hot One</string>
+     </void>
+     <void property="prices">
+      <array class="java.math.BigDecimal" length="3">
+       <void index="0">
+        <object class="java.math.BigDecimal">
+         <string>6.45</string>
+        </object>
+       </void>
+       <void index="1">
+        <object class="java.math.BigDecimal">
+         <string>8.45</string>
+        </object>
+       </void>
+       <void index="2">
+        <object class="java.math.BigDecimal">
+         <string>13.95</string>
+        </object>
+       </void>
+      </array>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.Pizza">
+     <void property="description">
+      <string>Our spiciest pizza... double pepperoni, fiery Roquito chilli peppers and jalapeno peppers.</string>
+     </void>
+     <void property="name">
+      <string>Blazin Inferno</string>
+     </void>
+     <void property="prices">
+      <array class="java.math.BigDecimal" length="3">
+       <void index="0">
+        <object class="java.math.BigDecimal">
+         <string>6.95</string>
+        </object>
+       </void>
+       <void index="1">
+        <object class="java.math.BigDecimal">
+         <string>8.95</string>
+        </object>
+       </void>
+       <void index="2">
+        <object class="java.math.BigDecimal">
+         <string>14.75</string>
+        </object>
+       </void>
+      </array>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.Pizza">
+     <void property="description">
+      <string>Chicken breast, sweet &amp; fiery Roquito chilli peppers and mixed peppers on a tomato base. Add chilli oil if you like it hotter.</string>
+     </void>
+     <void property="name">
+      <string>Spicy Chicken</string>
+     </void>
+     <void property="prices">
+      <array class="java.math.BigDecimal" length="3">
+       <void index="0">
+        <object class="java.math.BigDecimal">
+         <string>6.95</string>
+        </object>
+       </void>
+       <void index="1">
+        <object class="java.math.BigDecimal">
+         <string>8.95</string>
+        </object>
+       </void>
+       <void index="2">
+        <object class="java.math.BigDecimal">
+         <string>14.75</string>
+        </object>
+       </void>
+      </array>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.Pizza">
+     <void property="description">
+      <string>Smoky BBQ sauce with extra chicken breast, bacon &amp; sweetcorn.</string>
+     </void>
+     <void property="name">
+      <string>BBQ Americano</string>
+     </void>
+     <void property="prices">
+      <array class="java.math.BigDecimal" length="3">
+       <void index="0">
+        <object class="java.math.BigDecimal">
+         <string>6.95</string>
+        </object>
+       </void>
+       <void index="1">
+        <object class="java.math.BigDecimal">
+         <string>8.95</string>
+        </object>
+       </void>
+       <void index="2">
+        <object class="java.math.BigDecimal">
+         <string>14.85</string>
+        </object>
+       </void>
+      </array>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="discounts">
+   <void method="add">
+    <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.Discount">
+     <void property="discount">
+      <int>10</int>
+     </void>
+     <void property="items">
+      <void method="add">
+       <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.DiscountItem">
+        <void property="quantity">
+         <int>2</int>
+        </void>
+        <void property="type">
+         <object class="java.lang.Enum" id="DiscountType$40" method="valueOf">
+          <class>uk.ac.aber.dcs.cs12420.aberpizza.data.DiscountType</class>
+          <string>LARGE_PIZZA</string>
+         </object>
+        </void>
+       </object>
+      </void>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.Discount">
+     <void property="discount">
+      <int>8</int>
+     </void>
+     <void property="items">
+      <void method="add">
+       <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.DiscountItem">
+        <void property="quantity">
+         <int>1</int>
+        </void>
+        <void property="type">
+         <object idref="DiscountType$40"/>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="uk.ac.aber.dcs.cs12420.aberpizza.data.DiscountItem">
+        <void property="quantity">
+         <int>2</int>
+        </void>
+        <void property="type">
+         <object class="java.lang.Enum" method="valueOf">
+          <class>uk.ac.aber.dcs.cs12420.aberpizza.data.DiscountType</class>
+          <string>DRINK</string>
+         </object>
+        </void>
+       </object>
+      </void>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="restaurantName">
+   <string>Aberystwyth Pizza</string>
+  </void>
+  <void property="restaurantTel">
+   <string>0123456789</string>
+  </void>
+ </object>
+</java>
